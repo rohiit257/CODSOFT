@@ -13,7 +13,6 @@ htmlm,body{
 #main{
     height: 100vh;
     width: 100%;
-    background-color: black;
 }
 
 #back{
@@ -22,12 +21,17 @@ htmlm,body{
     background-color: black;
 }
 
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #top{
     pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
     height: 100vh;
     width: 100%;
 }
@@ -93,9 +97,11 @@ htmlm,body{
     overflow: hidden;
     height: 9vw;
     
+
 }
 
 #heroleft .elem h1{
+   
     line-height: .9;
     font-family: "kajiro";
     font-weight: 100;
@@ -135,5 +141,5 @@ htmlm,body{
 }
 
 #heroright p:nth-child(3){
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
