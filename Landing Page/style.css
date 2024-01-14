@@ -114,6 +114,8 @@ htmlm,body{
     padding: .8vw 2vw;
     font-size: 3vw;
     font-family: "kajiro";
+    background-color: white;
+    border: none;
 }
 
 #heroright{
